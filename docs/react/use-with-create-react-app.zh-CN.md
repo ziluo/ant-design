@@ -180,7 +180,7 @@ $ yarn add react-app-rewire-less --dev
 
   module.exports = function override(config, env) {
 -   config = injectBabelPlugin(['import', { libraryName: 'antd', style: 'css' }], config);
-+   config = injectBabelPlugin(['import', { libraryName: 'antd', style: ture }], config);
++   config = injectBabelPlugin(['import', { libraryName: 'antd', style: true }], config);
 +   config = rewireLess(config, env, {
 +     modifyVars: { "@primary-color": "#1DA57A" },
 +   });
