@@ -168,7 +168,7 @@ $ yarn add babel-plugin-import --dev
 
 ### 自定义主题
 
-按照 [配置主题](/docs/react/customize-theme) 的要求，自定义主题需要用到 less 变量覆盖功能，因此首先我们需要引入 react-app-rewire 的 less 插件 [react-app-rewire-less](npmjs.com/react-app-rewire-less) 来帮助加载 less 样式，同时修改 `config-overrides.js` 文件。
+按照 [配置主题](/docs/react/customize-theme) 的要求，自定义主题需要用到 less 变量覆盖功能，因此首先我们需要引入 react-app-rewire 的 less 插件 [react-app-rewire-less](http://npmjs.com/react-app-rewire-less) 来帮助加载 less 样式，同时修改 `config-overrides.js` 文件。
 
 ```bash
 $ yarn add react-app-rewire-less --dev
